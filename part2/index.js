@@ -23,8 +23,7 @@ app.use(
         cookie: {
             maxAge: 60000, // Durée d'expiration du cookie en millisecondes (ici, 1 minute)
         },
-        sameSite: 'None',
-        // sameSite: 'Lax',
+        sameSite: 'Lax'
     })
 );
 
